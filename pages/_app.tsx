@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 import "../styles/globals.css";
 
 // This is the chain your dApp will work on.
-const activeChain = "polygon";
+const activeChain = "binance";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
