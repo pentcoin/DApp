@@ -74,7 +74,7 @@ const Stake: NextPage = () => {
         <ConnectWallet />
       ) : (
         <>
-          <h3>Each staked PMC NFT will mine 1 $PTC daily. Mining reward is halved every year</h3>
+          <h3>Each staked PMC NFT will mine 1 $PTC daily</h3>
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
               <h3 className={styles.tokenLabel}>Mining Balance</h3>
