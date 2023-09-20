@@ -67,14 +67,14 @@ const Stake: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>XENSHIBA DASHBOARD</h1>
+      <h1 className={styles.h1}>MINER'S CLUB DASHBOARD</h1>
       <hr className={`${styles.divider} ${styles.spacerTop}`} />
 
       {!address ? (
         <ConnectWallet />
       ) : (
         <>
-          <h3>Stake your NFTs, mine free crypto every minute!</h3>
+          <h3>Each staked PMC NFT will mine 1 $PTC daily. Mining reward is halved every year</h3>
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
               <h3 className={styles.tokenLabel}>Mining Balance</h3>
