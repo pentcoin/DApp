@@ -67,17 +67,17 @@ const Stake: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>MINER'S CLUB DASHBOARD</h1>
+      <h1 className={styles.h1}>Stake Your NFTs</h1>
       <hr className={`${styles.divider} ${styles.spacerTop}`} />
 
       {!address ? (
         <ConnectWallet />
       ) : (
         <>
-          <h3>Each staked PMC NFT will mine 1 $PTC daily</h3>
+          <h2>Your Tokens</h2>
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
-              <h3 className={styles.tokenLabel}>Mining Balance</h3>
+              <h3 className={styles.tokenLabel}>Claimable Rewards</h3>
               <p className={styles.tokenValue}>
                 <b>
                   {!claimableRewards
@@ -88,7 +88,7 @@ const Stake: NextPage = () => {
               </p>
             </div>
             <div className={styles.tokenItem}>
-              <h3 className={styles.tokenLabel}>Wallet Balance</h3>
+              <h3 className={styles.tokenLabel}>Current Balance</h3>
               <p className={styles.tokenValue}>
                 <b>{tokenBalance?.displayValue}</b> {tokenBalance?.symbol}
               </p>
@@ -103,7 +103,7 @@ const Stake: NextPage = () => {
           </Web3Button>
 
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <h3>Your Staked NFTs</h3>
+          <h2>Your Staked NFTs</h2>
           <div className={styles.nftBoxGrid}>
             {stakedTokens &&
               stakedTokens[0]?.map((stakedToken: BigNumber) => (
@@ -115,7 +115,7 @@ const Stake: NextPage = () => {
           </div>
 
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <h3>Your Unstaked NFTs</h3>
+          <h2>Your Unstaked NFTs</h2>
           <div className={styles.nftBoxGrid}>
             {ownedNfts?.map((nft) => (
               <div className={styles.nftBox} key={nft.metadata.id.toString()}>
