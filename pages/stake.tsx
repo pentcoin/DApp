@@ -74,10 +74,10 @@ const Stake: NextPage = () => {
         <ConnectWallet />
       ) : (
         <>
-          <h2>Your Tokens</h2>
+          <h2>Welcome Pentcoin Miners Club Dashboard</h2>
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
-              <h3 className={styles.tokenLabel}>Claimable Rewards</h3>
+              <h3 className={styles.tokenLabel}>Mining Balance</h3>
               <p className={styles.tokenValue}>
                 <b>
                   {!claimableRewards
@@ -88,7 +88,7 @@ const Stake: NextPage = () => {
               </p>
             </div>
             <div className={styles.tokenItem}>
-              <h3 className={styles.tokenLabel}>Current Balance</h3>
+              <h3 className={styles.tokenLabel}>Wallet Balance</h3>
               <p className={styles.tokenValue}>
                 <b>{tokenBalance?.displayValue}</b> {tokenBalance?.symbol}
               </p>
