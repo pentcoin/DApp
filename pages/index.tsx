@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
-      <h1 className={styles.h1}>XENSHIBA DApp</h1>
+      <h1 className={styles.h1}>PENTCOIN MINERS CLUB</h1>
       <div className={styles.nftBoxGrid}>
         <div
           className={styles.optionSelectBox}
@@ -18,9 +18,9 @@ const Home: NextPage = () => {
         >
           {/* Mint a new NFT */}
           <Image src="/icons/drop.webp" alt="drop" width={64} height={64} />
-          <h3 className={styles.selectBoxTitle}>Mint XENSHIBA NFT</h3>
+          <h3 className={styles.selectBoxTitle}>Mint PMC NFTs</h3>
           <p className={styles.selectBoxDescription}>
-          You can only mint using mXEN.
+          Minted NFTs will start mining Pentcoins every minute once staked.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <Image src="/icons/token.webp" alt="token" width={64} height={64} />
           <h3 className={styles.selectBoxTitle}>Stake to Start Mining</h3>
           <p className={styles.selectBoxDescription}>
-          Stake your XENSHIBA NFT to mine XSHIBA tokens every minute.
+          Stake your PMC NFT to mine $PTC every minute.
           </p>
         </div>
       </div>
