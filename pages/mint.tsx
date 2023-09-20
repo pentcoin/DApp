@@ -9,10 +9,10 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Start Minting XENSHIBA NFTs</h1>
+      <h1 className={styles.h1}>Start Minting PMC NFTs</h1>
 
       <p className={styles.explain}>
-      Ensure you have the required mXEN tokens ready to mint.
+      Minted NFTs will start mining Pentcoins every minute once staked.
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
