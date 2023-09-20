@@ -1,5 +1,5 @@
-# XENSHIBA DApp
+# PENTCOIN MINERS CLUB
 
 ## Introduction
 
-XENShiba DApp allows for Minting and Staking XENShiba NFTs which gives owners right to mine XSHIBA token for free into circulation.
+PENTCOIN DApp allows for Minting and Staking NFTs which gives owners right to mine $PTC token for free into circulation.
